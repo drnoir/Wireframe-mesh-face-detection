@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+
+h1,h2,h3,h4,h5{
+  font-family: 'Iceland', cursive;
+  color:lawngreen;
+}
+
+a{
+  color:lawngreen;
+  text-decoration: none;
+}
+
+body{
+  background:black;
+  color:white;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* Pattern styles */
+
+.container {
+  display: flex;
+  font-family: 'Iceland', cursive;
+  font-size:1.2em;
+  border:lawngreen solid 4px;
+}
+
+.left-half {
+  flex: 1;
+  padding: 1rem;
+}
+
+.right-half {
+  flex: 1;
+  padding: 1rem;
+}

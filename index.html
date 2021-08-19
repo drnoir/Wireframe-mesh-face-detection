@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="content-language" content="en-EN" />
+  <title>JEELIZ FACEFILTER: THREE.JS WIREFRAME MESH FACE DETECTION DEMO</title>
+  <!-- INCLUDE JEELIZ FACEFILTER SCRIPT -->
+  <script src="js/jeelizFaceFilter.js"></script>
+  <!-- INCLUDE THREE.JS -->
+  <script src="js/three.min.js"></script>
+  <!-- INCLUDE A THREE.JS HELPER -->
+  <script src="js/JeelizThreeHelper.js"></script>
+  <!-- INCLUDE DEMO SCRIPT -->
+  <script src="js/modifiers.min.js"></script>
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body onload="main()">
+<section class = "container">
+  <div class = "left-half">
+    <h1>JEELIZ FACEFILTER AND THREE.JS WIREFRAME MESH FACE DETECTION DEMO</h1>
+    <h3>By Chris Godber</h3>
+    <p>Experiment with Three JS and Jeeliz Library </p>
+    <p>The mesh will map onto your face on the webcam and be mapped onto it.</p>
+    <p>Move around and see how the wireframe of the face 3D model follows your movements</p>
+    <h2>JavaScript Library Links</h2>
+    <p><a href = "https://threejs.org/" target="_blank">Three js</a></p>
+    <p><a href = "https://jeeliz.com/" target="_blank">Jeeliz</a></p>
+  </div>
+  <div class = "right-half">
+    <canvas width="600" height="550" id='jeeFaceFilterCanvas'></canvas>
+  </div>
+</section>
+</body>
+</html>
