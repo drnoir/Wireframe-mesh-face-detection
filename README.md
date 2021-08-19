@@ -1,6 +1,6 @@
 ##JEELIZ FACEFILTER AND THREE.JS WIREFRAME MESH FACE DETECTION DEMO
 ###By Chris Godber
-
+![Screenshot](demo.jpg)
 Experiment with Three JS and Jeeliz Library
 
 The mesh will map onto your face on the webcam and be mapped onto it.
